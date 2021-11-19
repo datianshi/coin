@@ -20,7 +20,7 @@
 
 ## Technical Explaination
 
-* A [solidity](https://docs.soliditylang.org/en/v0.8.10/) [smart contract](https://ethereum.org/en/developers/docs/smart-contracts/) [coin.sol](pkg/cmd/contracts/coin.sol)
+* A [solidity](https://docs.soliditylang.org/en/v0.8.10/) [smart contract](https://ethereum.org/en/developers/docs/smart-contracts/) [coin.sol](pkg/contracts/coin.sol)
 
     It has a map with key, account address and value, account balance **note the account balance is a new "currency" rather than eth** 
 

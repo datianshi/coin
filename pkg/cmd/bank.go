@@ -10,7 +10,6 @@ func init() {
 	BankCmd.MarkFlagRequired("private-key")
 	BankCmd.PersistentFlags().StringVar(&contractAddress, "contract-address", "", "contract address in hex format")
 	BankCmd.MarkFlagRequired("contract-address")
-	// BankCmd.PersistentFlags().Int64Var(&value, "value", 0, "value to transfer along with the transaction")
 	BankCmd.PersistentFlags().Int64Var(&gasPrice, "gas-price", 1000000, "gas price for the transaction")
 	BankCmd.PersistentFlags().Uint64Var(&gasLimit, "gas-limit", 3000000, "gas limit for the transaction")
 	BankCmd.AddCommand(FundCmd)

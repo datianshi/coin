@@ -4,7 +4,7 @@
 
 * I am trying to learn how to code smart contracts in go :) 
 * Set up a simple decentralized bank
-* Anyone with etheum account can fund money with given amount
+* Contractor owner can fund money with given amount
 * Anyone can transfer given amount of money to others
 
 ## Prerequisites
